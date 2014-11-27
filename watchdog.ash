@@ -5,7 +5,7 @@
 # and add the following line to "Scheduled Tasks" under "System":
 # * */6  *   *   *     /root/watchdog.ash
 
-# Assgn variables for current time and time since last work accepted
+# Assgn variables for current time and time of last work accepted
 currtime=$(date +"%s")
 lastwork=$(cgminer-monitor 2>&1 1>/dev/null | grep A= | awk '{ print $7 }')
 
