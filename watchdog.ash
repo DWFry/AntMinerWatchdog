@@ -3,7 +3,7 @@
 
 # You must run 'chmod 755 /root/watchdog.ash' or set +x in SCP client,
 # and add the following line to "Scheduled Tasks" under "System":
-# */3 *  *   *   *     /root/watchdog.ash
+# * */6  *   *   *     /root/watchdog.ash
 
 # Assgn variables for current time and time since last work accepted
 currtime=$(date +"%s")
