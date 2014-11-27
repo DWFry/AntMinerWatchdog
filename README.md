@@ -9,4 +9,4 @@ This script parses the output of cgminer-monitor, reads the timestamp of the las
 
 Add the following entry to crontab, or System -> Scheduled Tasks in the GUI to run the script every 3 minutes:
 
- * */6  *   *   *     /root/watchdog.ash
+"  * */6  *   *   *     /root/watchdog.ash  "
